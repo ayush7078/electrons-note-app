@@ -32,7 +32,7 @@ npm or yarn (for installing dependencies)
 Installation
 
 Clone the repository:
-git clone https://github.com/your-username/electron-notes-app.git
+git clone https://github.com/ayush7078/electrons-note-app.git
 cd electron-notes-app
 Install dependencies:
 
