@@ -1,0 +1,24 @@
+{
+  "name": "electron-notes-app",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+     "build:css": "npx tailwindcss -i ./src/assets/styles.css -o ./src/assets/tailwind.output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "electron": "^33.0.2",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  }
+}

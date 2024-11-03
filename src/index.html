@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electron Notes App</title>
+  <link rel="stylesheet" href="./assets/tailwind.output.css" />
+</head>
+<body class="h-screen flex font-sans">
+  <div id="notes-list" class="w-1/4 bg-gray-100 border-r border-gray-300 overflow-y-auto p-4">
+  </div>
+  <div id="note-container" class="flex-1 p-6 flex flex-col">
+    <textarea id="note-text" placeholder="Write your note here..." 
+              class="flex-1 p-3 mb-4 border border-gray-300 rounded-md focus:outline-none focus:ring focus:border-blue-300 resize-none"></textarea>
+    <button id="save-button" 
+            class="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition">
+      Save Note
+    </button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
